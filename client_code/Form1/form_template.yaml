@@ -4,6 +4,14 @@ components:
     name: rich_text_1
     properties: {content: '`Holla! My name is Love!'}
     type: RichText
+  - layout_properties: {grid_position: 'FNLMSZ,CXHENM'}
+    name: button_1
+    properties: {text: I added this button on dev branch}
+    type: Button
+  - layout_properties: {grid_position: 'ZYKFGD,OXQXIS'}
+    name: label_1
+    properties: {text: Hello Dev Branch!}
+    type: Label
   layout_properties: {slot: default}
   name: content_panel
   properties: {}
