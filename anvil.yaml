@@ -1,7 +1,7 @@
 allow_embedding: false
 db_schema:
   products:
-    client: search
+    client: none
     columns:
     - admin_ui: {width: 200}
       name: Name
@@ -32,9 +32,6 @@ db_schema:
     - admin_ui: {width: 200}
       name: confirmed_email
       type: bool
-    - admin_ui: {order: 6, width: 200}
-      name: signed_up
-      type: datetime
     server: full
     title: Users
 name: Feedback2
