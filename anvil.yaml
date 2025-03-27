@@ -1,4 +1,10 @@
 allow_embedding: false
+db_schema:
+  table_1:
+    client: none
+    columns: []
+    server: full
+    title: Table 1
 name: Feedback2
 package_name: Feedback2
 runtime_options:
