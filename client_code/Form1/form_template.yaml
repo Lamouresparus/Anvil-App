@@ -16,6 +16,10 @@ components:
     name: button_2
     properties: {text: New Button on Master}
     type: Button
+  - layout_properties: {grid_position: 'CZZNTM,LTBQYM'}
+    name: button_3
+    properties: {text: Added this oN a new feature branch from a fork}
+    type: Button
   layout_properties: {slot: default}
   name: content_panel
   properties: {}
