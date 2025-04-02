@@ -18,3 +18,13 @@ import anvil.server
 #   print("Hello, " + name + "!")
 #   return 42
 #
+
+@anvil.server.http_endpoint("/foo")
+def serve_content():
+  # This response will have Content-Type application/json
+  return {"key": "value"}
+
+
+@anvil.server.http_endpoint("/users/:id")
+def get_user(id, **params):
+  return {"id": id}
